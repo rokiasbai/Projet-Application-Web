@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/SourceSansPro-Light.ttf);
+}
+@font-face {
+  font-family: "font-2";
+  src: url(../assets/fonts/SourceSansPro-Light.ttf);
+}
+
+$font-1: "font-1", sans-serif;
+$font-2: "font-2", sans-serif;
+
+$color-1: #b67e7e;
+$color-2: #ffffff;
+$color-3: rgb(211, 146, 146);
+$black: #ffffff;
+$white: rgb(238, 238, 238);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-1;
+}
+
+body {
+  background: $color-2;
+  color: $white;
+}
+li {
+  list-style: none;
+}
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
